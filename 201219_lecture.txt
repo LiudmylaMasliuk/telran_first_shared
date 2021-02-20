@@ -1,0 +1,59 @@
+ls -lath -> t - time sorted; h - человекочитаемое
+
+-rw-r--r--; rw-права создателя, r-- права группы пользователя, r-- права остальных; r-read, w-write, 
+		x- исполнить, t - sticky bit - in a folder users can delete only the files that they have created; 
+		d- normal file; l- link; - directory
+
+total: 1 symbol - type; 3 symbols - owner rights; 3 symbols - rights of the group owner of file; 3 symbols - other users
+
+chmod ugo+-rwx; all possible options
+	u - user - owner of file
+	g - group
+	o - other - other users
+	+ add rights
+	- remove rights
+	rwx - rights
+chmod o+x //file - allows all to execute
+
+rights are defined as maximal possible - 
+	if others can do more than group group will be treated as others for eachright separately
+
+chmod 057; 3 numbers, 0 - no rights, 7 - max possible rights
+
+chmod 400; readonly - first number is user
+
+chmod 700 - user can anyrhig, others nothing
+chmod 754 - user can everything, group - read and execute, others - read
+
+chown owner //file.xxx; chanf=ge owner
+
+chown owner:groupName //file.xxx; change owner and group
+
+chown :groupName //file.xxx; change group
+
+adduser userName; create new user
+
+
+YOU ARE NEW AT FILE:
+0) df -h; df - disk full
+1)whoami
+2)history - can be empty
+3)cat /proc/cpuinfo
+
+4) localhost:~# cat /etc/os-release
+5)top; or htop - processes exit q or ctrl+c
+
+Load average 0.2 001 0 1/31 103 ; - first - just now, second - last 10 min, third - average in some units
+	counted taking into account amount of cores, use of memory and hdd
+	approx nCores*2 - serious workload
+
+
+LINK TO TELRAN SERVER
+
+ssh -i ~/Downloads/andrew.pem ec2-user@linux.telran-edu.de ; exit - exit
+
+		.pem - privat encryption part
+
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+
+vi ~/.ssh/autorized_keys

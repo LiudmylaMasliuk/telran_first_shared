@@ -1,0 +1,19 @@
+curl -O https://....  -----download file
+
+ctrl w  ------delete by word
+
+gurl google.com  ---- see html in terminal
+
+--global has lower priority than --system
+
+
+git remote add origin https:// ... - link to remote repository
+
+
+git init
+git add .
+git commit -m "message"
+git remote add origin https://
+git push -f
+
+git add . && git commit && git push  ---------- in same line

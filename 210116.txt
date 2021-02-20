@@ -1,0 +1,36 @@
+echo -e 'bla\n bla' - will make new line
+
+cron - plan what to do when
+
+crontab -l - show planned actions
+	* - each
+* * * * * /tmp/script.sh - each minute each hour each day each month each weekday
+	0 and 7 weekday is Sunday*
+*/15 each 15 min
+
+crontab -e 	opens crontab with vi
+
+
+* * * * * /opt/Liudmyla/scriptLM.sh >> /tmp/liudmyla.txt
+
+tail -f - dynamically shows changes
+
+echo -e '#!/bin/bash\n date\n echo "it works!"' >script.sh
+
+
+#!/bin/bash
+ date
+ echo "it works"
+
+for run in {1..10}
+do
+ echo $run		echo "run"$run"!!!"
+ echo hello you
+ sleep 1   		- wait 1s
+done
+
+
+for files in $(ls /opt/); do echo "Hello" $files "!"; done
+
+
+touch {1..5}.txt - create 5 files in this folder

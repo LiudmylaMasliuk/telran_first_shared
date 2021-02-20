@@ -1,0 +1,54 @@
+norm inets speed ~14-15ms
+
+TCP - untill it comes
+UPD - might not come
+
+git branch ----- to make a copy of a selected state
+
+git status ------ is it up-to-date?
+git checkout -b "new_branch_1" -----branch titles without space
+
+git push ---- if message like 
+		"fatal error - no upsteream branch - 
+		it doesn't know where to put it
+
+git push --set-upstream origin new_branch_1  - create a new branch
+
+git checkout main ----will switch back to main branch, 
+		all files that are not represented in this branch 
+		wouldn't be shown even by ls -la
+
+
+git add dir/file1.txt dir/file2.txt ----git add supports multiple arguments
+
+git reset ----- stop following selected file
+
+
+git rm file.txt ----get rid of file in git
+
+git log ----- history of git changes   -q to exit
+
+git revert -----revert changes
+
+git revert HEAD~1 ---one commit back
+
+git diff ----shows differences since last step
+
+git pull --------- get last commit from github
+
+git push --force ---------- ignore that there is more commits 
+		in github than in local branch 
+		and submit a local branch
+
+//git reset????
+
+git rebase -p onto main
+
+git remote add origin uhttps:// ----- connect to the remote repository
+
+hometask 1) select one folder with specific lesson, 
+	init repository and send it to github
+ht lvl 2 init repository and send a folder at a high level in there 
+	(when there already is a .git file inside 
+	- to get it working all .git has to be removed or ignore folders .git)
+

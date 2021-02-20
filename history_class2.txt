@@ -1,0 +1,62 @@
+   0 pwd
+   1 cd
+   2 ls
+   3 cd home
+   4 cd /home
+   5 ls
+   6 ls -la /
+   7 ls /
+   8 ls
+   9 ls -la
+  10 history
+  11 mkdir User1
+  12 ls
+  13 cd User1
+  14 mkdir Task1
+  15 ls
+  16 mv Task1 task1
+  17 ls
+  18 mv task1 Task1
+  19 ls
+  20 cd Task1
+  21 touch file.txt
+  22 ls -la
+  23 ls -a
+  24 cd ..
+  25 cd User1/Task1/
+  26 cd ../../..
+  27 cd
+  28 ls
+  29 cd /home/
+  30 ls -l -a -t -h
+  31 ls -lath
+  32 mkdir User2
+  33 ls
+  34 mkdir User2/Task2
+  35 touch User2/Task2/file2.txt
+  36 ls Use2/Task2/
+  37 ls User2/Task2/
+  38 touch User
+  39 ls
+  40 ls User2/Task2/
+  41 mv User1/Task1/file.txt User1/Task1/file1.txt 
+  42 mkdir -p User3/Task3
+  43 touch User3/Task3/file3.txt
+  44 mkdir -p User2
+  45 ls
+  46 ls /home/User1
+  47 ls /home/User2
+  48 ls /home/User3
+  49 cd User1/Task1/
+  50 mkdir -p /home/User3/Task3/
+  51 ls -l /home/User3/Task3/file3.txt 
+  52 ls -l ../../User3/Task3/file3.txt 
+  53 mv /home/User /home/file
+  54 ls /home/
+  55 cd /temp
+  56 cd /tmp
+  57 cp /home/file .
+  58 ls
+  59 mv file new_file
+  60 ls
+  61 history > /tmp/history.txt

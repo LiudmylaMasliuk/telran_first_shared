@@ -1,0 +1,20 @@
+sed 's/A/B/g' - exchange A with B global
+
+in bin/bash touch {1..10}.txt is bin, in terminal - text
+
+git clone https://.... - connect to remote repository
+
+
+git commit 	commit - show changes to a repository, 
+		it doesn't copy everything, only the changes
+
+git add Readme.md
+git commit -m "updated README" 	-m - message to keep inside - message is required
+
+git add . 	add all what is here
+
+git log 	origin/main origin Head  at github; author+date - local difference
+
+git push 	submit changes
+
+.git occutrs after initialization of a repository

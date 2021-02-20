@@ -1,0 +1,73 @@
+awk - text processor by condition reports symbol - show selected column
+	by default space and tab are recognized as word separator
+	column count begins from 1
+awk '{print $5}' - show fifth column
+
+sed - text processor that can replace smth
+
+sed 's/%//' - sed 's(wap)/(this symbol(s)/with this/' only once
+
+sed 's/%//g' -.... g(lobal) - all occurrences
+
+tr - trim
+
+tr -d "%" - remove all % symbols
+
+
+
+####VI - script.ssh
+
+#!/bin/bash - #!=шебанг (shebang) - явное упоминание чем 
+	исполнять последующий текст
+date
+echo hello world!
+
+
+
+
+chmod +x file - executable for all
+
+chmod u+x - execute for user
+
+chmod ugo+x - execute for all
+
+/tmp/script.sh - run using the full path
+
+cd /tmp
+./script.sh - from the same folder
+
+### - comment that will be shown in history
+
+bash /tmp/script.sh - выполнить с баш
+
+
+nano script.sh - edit file with nano
+
+
+
+###in nano
+#!/bin/bash
+CITY=Berlin - make a variable
+
+date
+echo hello from $CITY
+
+
+
+* - any symbol
+
+kill - stop process
+
+sudo - super user do
+
+kill -9 - безусловное завершение
+
+PMON - процесс который отвечает за взаимодействие с главной оракл базой
+
+
+$ ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+
+
+grep -v - exclude
+
+grep - v tail - don't show line with tale
